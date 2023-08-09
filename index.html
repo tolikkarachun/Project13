@@ -11,8 +11,10 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	
 	<title>CloudBudget</title>
-	<link rel="shortcut icon" href="appstore.ico">
+	
 </head>
 
 <body>
@@ -54,8 +56,8 @@
 					<a href="/" class="easy__btn">Learn More</a>
 				</div>
 				<div class="easy__img">
-					<img src="img/video.jpg" alt="video">
-					<img class="easy__img_play" src="img/playbutton.png" alt="">
+					<img class="easy__img_video" src="img/video.jpg" alt="video">
+					<img class="easy__img_play" src="img/playbutton.png" alt="play">
 				</div>
 			</div>
 		</section>
@@ -99,8 +101,7 @@
 					</div>
 				</div>
 			</div>
-	</div>
-	</section>
+		</section>
 
 
 	<section class="technology-section container">
@@ -149,9 +150,9 @@
 					monitor your spending habits so you can
 					easily spot and cut any unnecessary expenses. Simply join today to get started!</div>
 				<div class="money-icon">
-					<a class="money-icon__a" href="/"><img class="money-icon__img" src="playstore.ico" alt=""></a>
-					<a class="money-icon__a" href="/"><img class="money-icon__img" src="appstore.ico" alt=""></a>
-					<a class="money-icon__a" href="/"><img class="money-icon__img" src="windows.ico" alt=""></a>
+					<a class="money-icon__a" href="/"><img class="money-icon__img" src="playstore.ico" alt="playstore"></a>
+					<a class="money-icon__a" href="/"><img class="money-icon__img" src="appstore.ico" alt="appstore"></a>
+					<a class="money-icon__a" href="/"><img class="money-icon__img" src="windows.ico" alt="windows"></a>
 				</div>
 			</div>
 			<div class="money__img">
@@ -170,14 +171,17 @@
 				<input class="contact-forms__input" type="text" name="name" placeholder="Last Name">
 			</div>
 			<div class="contact-forms__phone">
-				<input class="contact-forms__phone_input" type="text" name="name" placeholder="Phone Number">
+				<input class="contact-forms__phone_input" type="text" name="phone" id="phone" placeholder="Phone Number">
 			</div>
 			<div class="contact-forms__select">
 				<select class="contact-forms__select_option">
 					<option>Select Service</option>
+					<option>Technology</option>
+					<option>Features</option>
 				</select>
-				<div class="contact-forms__btn"><a href="/" class="btn _contact">Submit Now</a></div>
-			</div>	
+				<a class="contact-forms__select_span" href="/"><span class="material-icons">expand_more</span></a>
+			</div>
+			<div class="contact-forms__btn"><a href="/" class="btn _contact">Submit Now</a></div>
 		</div>
 	</section>
 	<footer class="footer">
@@ -199,7 +203,7 @@
 			<div class="footer__touch">
 				<div class="footer__touch-header">Get in Touch</div>
 				<div class="footer__touch-value"><a href="mailto:info@cloudbudget.com">info@cloudbudget.com</a></div>
-				<div class="footer__touch-value"><a href="tel:+1 844-721-7120">+1 844-721-7120</a></div>
+				<div class="footer__touch-value"><a href="tel:+1844-721-7120">+1 844-721-7120</a></div>
 				<div class="footer__touch-value">
 					<a class="footer__touch-value_massage" href="/"><img src="img/facebook.svg" alt="facebook"></a>
 					<a class="footer__touch-value_massage" href="/"><img src="img/linkedin.svg" alt="linkedin"></a>
@@ -209,16 +213,16 @@
 			<div class="footer__support">
 				<div class="footer__support-header">We Support</div>
 				<div class="footer__support-value">
-					<a href="/"><img src="img/visa.png" alt="Visa"></a>
+					<img src="img/visa.png" alt="Visa">
 				</div>
 			</div>
 		</div>
-		<div class="container footer__copyright">Copyright 2018 CloudBudget</div>
+		<div class="container footer__copyright">Copyright <span class="copyright-year">2023</span> CloudBudget</div>
 	</footer>
 	</div>
 
-
-	<script src="script.js"></script>
+	<script src="script.js">
+	</script>
 </body>
 
 </html>
